@@ -1,0 +1,13 @@
+torch
+torchvision
+torchaudio
+pytorch-lightning
+numpy
+matplotlib
+pyyaml
+h5py
+pandas
+scipy
+scikit-image
+tqdm
+tensorboard

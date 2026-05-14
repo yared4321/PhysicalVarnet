@@ -1,0 +1,21 @@
+# PhysicalVarnet Repository Configuration
+# Replace these paths with your local environment paths
+
+paths:
+  # Root directory of the brainweb dataset (containing train/val folders)
+  data_root: "./data/brainweb"
+  
+  # Specific data splits (relative to data_root or absolute)
+  train_path: "train/"
+  val_path: "val/"
+  
+  # Project base path (where checkpoints and logs are stored)
+  base_path: "."
+  
+  # Default checkpoint file
+  default_checkpoint: "checkpoints_final_changed/last_model_full.pth"
+
+# Training/Inference hyperparameters
+settings:
+  device: "cuda" # or "cpu"
+  batch_size: 4
